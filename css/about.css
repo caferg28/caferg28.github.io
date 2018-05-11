@@ -1,0 +1,140 @@
+element.style {
+  margin: 0px;
+}
+
+.menu {
+  position: fixed;
+  width: 100%
+}
+
+.menu li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  background: none;
+  width: 100%;
+  margin: auto;
+  padding-left: 0px;
+  text-align: center;
+}
+
+nav ul {
+  font-weight: 300;
+  list-style: none;
+  letter-spacing: .1em;
+  background-color: lightgrey;
+  justify-content: center;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  width: 100%;
+  padding: 5px 15px;
+}
+
+nav a {
+  display: inline-block;
+}
+
+nav li a:hover {
+  color: white;
+}
+header {
+  background-color: #CEEDDB;
+  text-align: center;
+  display: block;
+  height: 300px;
+  padding-top: 20px;
+}
+
+.jumbotron-text {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  margin-top: 0px;
+  padding-top: 20px;
+  font-size: 30px;
+  color: white;
+}
+
+h2 {
+  color: cadetblue;
+  text-align: center;
+  font-family: 'Raleway';
+  font-size: 25px;
+  font-weight: normal;
+  padding-bottom: 20px;
+}
+
+/* body headers font color: #788AA3 */
+.about h3 {
+  color: #788AA3 ;
+  font-size: 40px;
+  font-family: Lobster;
+}
+
+.contact a {
+  text-decoration: none;
+}
+
+.wrapper {
+  margin: 0 50px;
+}
+
+.image-right {
+  float: right;
+  width: 200px;
+  margin-left: 50px;
+}
+
+body {
+  color: #222222;
+  font-family: "Playfair display", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background-color: #EDEEC9;
+  padding-top: 15px;
+  height: 50px;
+  bottom: 0px;
+}
+
+footer h5 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.hamburger, .close {
+    display: none;
+}
+
+@media (max-width: 650px) {
+ .hamburger, .close {
+        display: block;
+        font-size: 30px;
+        text-decoration: none;
+ }
+ 
+ .menu {
+  position: fixed;
+  top: -100vh;
+ }
+
+ .menu.open-menu {
+  	top: 0;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    z-index: 100;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0;
+  }
+}

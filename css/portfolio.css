@@ -1,0 +1,235 @@
+html {
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+element.style {
+  margin: 0px;
+}
+
+.menu {
+  position: fixed;
+  width: 100%
+}
+
+.menu li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  background: none;
+  width: 100%;
+  margin: auto;
+  padding-left: 0px;
+  text-align: center;
+}
+
+nav ul {
+  font-weight: 300;
+  list-style: none;
+  letter-spacing: .1em;
+  background-color: lightgrey;
+  justify-content: center;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  width: 20%;
+  padding: 5px 15px;
+}
+
+nav a {
+  display: inline-block;
+}
+
+nav li a:hover {
+  color: white;
+}
+
+header {
+  background-color: #CEEDDB;
+  text-align: center;
+  display: block;
+  height: 300px;
+  padding-top: 20px;
+}
+
+.jumbotron-text {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  margin-top: 0px;
+  padding-top: 10px;
+  font-size: 30px;
+  color: white;
+}
+
+body {
+  color: #222222;
+  font-family: "Playfair display", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: white;
+}
+
+header h1 {
+  font-family: 'helvetica'; cursive; header;
+  vertical-align: text-bottom;
+  color: white;
+  text-align: center;
+}
+
+header h2 {
+    color: cadetblue;
+    font-family: "Raleway";
+    font-size: 25px;
+    text-align: center;
+    font-style: normal;
+    font-weight: lighter;
+    padding-bottom: 20px;
+}
+
+.wrapper {
+  margin: 0 50px;
+}
+
+section {
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+  background: white;
+  height: 60px;
+}
+
+h3 {
+  padding: 0px;
+  font-family: "Raleway";
+  color: #666A86
+}
+
+p {
+  padding: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.peach {
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+   border-style: solid;
+   border-width: thin;
+   border-color: lightgrey;
+}
+
+.thankyou {
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+   border-style: solid;
+   border-width: thin;
+   border-color: lightgrey;
+}
+
+.linofooter {
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+   border-style: solid;
+   border-width: thin;
+   border-color: lightgrey;
+}
+
+.summer {
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+   border-style: solid;
+   border-width: thin;
+   border-color: lightgrey;
+}
+
+
+
+footer {
+  text-align: center;
+  padding-top: 50px;
+  color: white;
+  background: #D0B8AC;
+  height: 150px;
+  text-decoration: none;
+}
+
+footer h4 {
+  font-size: 30 px;
+  margin: 0 auto;
+  font-family: "Raleway";
+  text-align: center;
+}
+
+.email {
+  color: white;
+}
+
+.email-contact a {
+  color: white;
+  text-decoration: none;
+  font-family: "Raleway";
+}
+
+.mailto:ca.ferguson@live.com:hover {
+  color: black;
+}
+
+.socials a {
+  text-decoration: none;
+  color: black;
+}
+
+section {
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+  background: #CEEDDB;
+  height: 60px;
+}
+
+.socials {
+  width: 100%;
+  bottom: 0;
+}
+
+.fa-envelope-open {
+  color: white;
+}
+
+.fa-envelope-open:hover {
+    color: black;
+}
+
+.fa-instagram {
+  color: white;
+}
+
+.fa-instagram:hover {
+  color: black;
+}
+
+.fa-linkedin-in {
+  color: white;
+}
+
+.fa-linkedin-in:hover {
+  color: black;
+}
+
+.fa-phone:hover {
+  color: black;
+}
